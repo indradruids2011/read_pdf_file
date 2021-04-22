@@ -42,5 +42,7 @@ tables = camelot.read_pdf(file, strip_text='\n')
 # number of tables extracted
 print("Total tables extracted:", tables.n)
 # export individually
-tables[1].to_csv("test2.csv")
+tables[0].to_csv("test1.csv")   # Tabele 1
+tables[1].to_csv("test2.csv")   # Tabele 2
+tables[2].to_csv("test3.csv")   # Tabele 3
 ###################################################
