@@ -38,7 +38,7 @@ table[0]
 ###################################################
 # PDF file to extract tables from
 file = "downloads.pdf"
-tables = camelot.read_pdf(file, strip_text=' .\n')
+tables = camelot.read_pdf(file, strip_text='\n')
 # number of tables extracted
 print("Total tables extracted:", tables.n)
 # export individually
